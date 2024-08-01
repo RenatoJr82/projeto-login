@@ -30,6 +30,8 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.718);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem {
